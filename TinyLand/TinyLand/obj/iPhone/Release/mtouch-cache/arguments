@@ -1,0 +1,35 @@
+# Version: 9.6.2.4 (cycle6-xi: d8bedd0)
+# [first argument, ignore] # /Users/MaX/Projects/TinyLand/TinyLand/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/9.6.2.4/bin/mtouch \
+	--cache \
+	/Users/MaX/Projects/TinyLand/TinyLand/obj/iPhone/Release/mtouch-cache \
+	--dev \
+	/Users/MaX/Projects/TinyLand/TinyLand/bin/iPhone/Release/TinyLand.app \
+	--executable \
+	TinyLand \
+	--linksdkonly \
+	--sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--sdk \
+	9.3 \
+	--targetver \
+	8.0 \
+	--aot-options=-O=float32 \
+	--new-refcount \
+	"--abi=armv7+llvm,arm64+llvm" \
+	--symbollist \
+	/Users/MaX/Projects/TinyLand/TinyLand/obj/iPhone/Release/mtouch-symbols.list \
+	--dsym=no \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	--target-framework \
+	"Xamarin.iOS,v1.0" \
+	/Users/MaX/Projects/TinyLand/TinyLand/bin/iPhone/Release//TinyLand.exe \

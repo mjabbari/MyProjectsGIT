@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyLand", "TinyLand\TinyLand.csproj", "{E22C1428-C3E3-4690-81CC-DCA1D72B2E93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E22C1428-C3E3-4690-81CC-DCA1D72B2E93}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{E22C1428-C3E3-4690-81CC-DCA1D72B2E93}.Debug|iPhone.Build.0 = Debug|iPhone
+		{E22C1428-C3E3-4690-81CC-DCA1D72B2E93}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{E22C1428-C3E3-4690-81CC-DCA1D72B2E93}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{E22C1428-C3E3-4690-81CC-DCA1D72B2E93}.Release|iPhone.ActiveCfg = Release|iPhone
+		{E22C1428-C3E3-4690-81CC-DCA1D72B2E93}.Release|iPhone.Build.0 = Release|iPhone
+		{E22C1428-C3E3-4690-81CC-DCA1D72B2E93}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{E22C1428-C3E3-4690-81CC-DCA1D72B2E93}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{E22C1428-C3E3-4690-81CC-DCA1D72B2E93}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TinyLand/GameViewController.cs">
+    <Files>
+      <File FileName="TinyLand/GameScene.cs" Line="1" Column="1" />
+      <File FileName="TinyLand/Node/Character.cs" Line="1" Column="1" />
+      <File FileName="TinyLand/Node/Platforms.cs" Line="1" Column="1" />
+      <File FileName="../FallDown/FallDown/Nodes/Ball.cs" Line="1" Column="1" />
+      <File FileName="TinyLand/GameViewController.cs" Line="33" Column="32" />
+      <File FileName="TinyLand/Node/BgSprite.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TinyLand PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6F81062E-B028-44DA-92B5-87EE79E48A15" />
+</Properties>

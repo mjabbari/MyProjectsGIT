@@ -1,0 +1,891 @@
+.subsections_via_symbols
+.text
+	.align 3
+jit_code_start:
+_mono_aot_TinyLandjit_code_start:
+	.globl _mono_aot_TinyLandjit_code_start
+
+	.byte 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+.text
+ut_50:
+
+	.byte 8,0,128,226
+	b _TinyLand_System_Array_InternalEnumerator_1_T_INT__ctor_System_Array
+
+.text
+ut_51:
+
+	.byte 8,0,128,226
+	b _TinyLand_System_Array_InternalEnumerator_1_T_INT_Dispose
+
+.text
+ut_52:
+
+	.byte 8,0,128,226
+	b _TinyLand_System_Array_InternalEnumerator_1_T_INT_MoveNext
+
+.text
+ut_53:
+
+	.byte 8,0,128,226
+	b _TinyLand_System_Array_InternalEnumerator_1_T_INT_get_Current
+
+.text
+	.align 3
+jit_code_end:
+_mono_aot_TinyLandjit_code_end:
+	.globl _mono_aot_TinyLandjit_code_end
+
+	.byte 0,0,0,0
+.no_dead_strip _TinyLand_TinyLand_Application__ctor
+.no_dead_strip _TinyLand_TinyLand_Application_Main_string__
+.no_dead_strip _TinyLand_TinyLand_AppDelegate__ctor
+.no_dead_strip _TinyLand_TinyLand_AppDelegate_get_Window
+.no_dead_strip _TinyLand_TinyLand_AppDelegate_set_Window_UIKit_UIWindow
+.no_dead_strip _TinyLand_TinyLand_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
+.no_dead_strip _TinyLand_TinyLand_AppDelegate_OnResignActivation_UIKit_UIApplication
+.no_dead_strip _TinyLand_TinyLand_AppDelegate_DidEnterBackground_UIKit_UIApplication
+.no_dead_strip _TinyLand_TinyLand_AppDelegate_WillEnterForeground_UIKit_UIApplication
+.no_dead_strip _TinyLand_TinyLand_AppDelegate_OnActivated_UIKit_UIApplication
+.no_dead_strip _TinyLand_TinyLand_AppDelegate_WillTerminate_UIKit_UIApplication
+.no_dead_strip _TinyLand_TinyLand_GameViewController__ctor_intptr
+.no_dead_strip _TinyLand_TinyLand_GameViewController_ViewDidLoad
+.no_dead_strip _TinyLand_TinyLand_GameViewController_ShouldAutorotate
+.no_dead_strip _TinyLand_TinyLand_GameViewController_GetSupportedInterfaceOrientations
+.no_dead_strip _TinyLand_TinyLand_GameViewController_DidReceiveMemoryWarning
+.no_dead_strip _TinyLand_TinyLand_GameViewController_PrefersStatusBarHidden
+.no_dead_strip _TinyLand_TinyLand_GameViewController_ReleaseDesignerOutlets
+.no_dead_strip _TinyLand_TinyLand_GameScene__ctor_intptr
+.no_dead_strip _TinyLand_TinyLand_GameScene_DidMoveToView_SpriteKit_SKView
+.no_dead_strip _TinyLand_TinyLand_GameScene_DidSimulatePhysics
+.no_dead_strip _TinyLand_TinyLand_GameScene_Initial
+.no_dead_strip _TinyLand_TinyLand_GameScene_AddScoreLAbel
+.no_dead_strip _TinyLand_TinyLand_GameScene_AddChar
+.no_dead_strip _TinyLand_TinyLand_GameScene_AddPlatforms
+.no_dead_strip _TinyLand_TinyLand_GameScene_AddCamera
+.no_dead_strip _TinyLand_TinyLand_GameScene_AddBg
+.no_dead_strip _TinyLand_TinyLand_GameScene_TouchesBegan_Foundation_NSSet_UIKit_UIEvent
+.no_dead_strip _TinyLand_TinyLand_GameScene_Update_double
+.no_dead_strip _TinyLand_TinyLand_Character__ctor
+.no_dead_strip _TinyLand_TinyLand_Character_RunAnim
+.no_dead_strip _TinyLand_TinyLand_Character_idleAnim
+.no_dead_strip _TinyLand_TinyLand_Character_JumpAnim
+.no_dead_strip _TinyLand_TinyLand_Character_SlideAnim
+.no_dead_strip _TinyLand_TinyLand_Character_isSliding
+.no_dead_strip _TinyLand_TinyLand_Character__RunAnimm__0_int
+.no_dead_strip _TinyLand_TinyLand_Character__idleAnimm__1_int
+.no_dead_strip _TinyLand_TinyLand_Character__JumpAnimm__2_int
+.no_dead_strip _TinyLand_TinyLand_Character__SlideAnimm__3_int
+.no_dead_strip _TinyLand_TinyLand_Platforms__ctor_System_nfloat
+.no_dead_strip _TinyLand_TinyLand_BgSprite__ctor_System_nfloat_System_nfloat_System_nfloat_string
+.no_dead_strip _TinyLand_TinyLand_BgSprite_ScrollAnim_double
+.no_dead_strip _TinyLand_wrapper_delegate_invoke_System_Func_2_int_SpriteKit_SKTexture_invoke_TResult_T_int
+.no_dead_strip _TinyLand_System_Linq_Enumerable_Select_TSource_INT_TResult_REF_System_Collections_Generic_IEnumerable_1_T_INT_System_Func_2_TSource_INT_TResult_REF
+.no_dead_strip _TinyLand_System_Array_InternalEnumerator_1_T_INT__ctor_System_Array
+.no_dead_strip _TinyLand_System_Array_InternalEnumerator_1_T_INT_Dispose
+.no_dead_strip _TinyLand_System_Array_InternalEnumerator_1_T_INT_MoveNext
+.no_dead_strip _TinyLand_System_Array_InternalEnumerator_1_T_INT_get_Current
+.no_dead_strip _TinyLand_System_Array_InternalArray__IEnumerable_GetEnumerator_T_INT
+.no_dead_strip _TinyLand_System_Linq_Enumerable_WhereSelectArrayIterator_2_T_INT_TResult_REF__ctor_T_INT___System_Func_2_T_INT_bool_System_Func_2_T_INT_TResult_REF
+.no_dead_strip _TinyLand_System_Linq_Enumerable_WhereSelectListIterator_2_T_INT_TResult_REF__ctor_System_Collections_Generic_List_1_T_INT_System_Func_2_T_INT_bool_System_Func_2_T_INT_TResult_REF
+.no_dead_strip _TinyLand_System_Linq_Enumerable_WhereSelectEnumerableIterator_2_T_INT_TResult_REF__ctor_System_Collections_Generic_IEnumerable_1_T_INT_System_Func_2_T_INT_bool_System_Func_2_T_INT_TResult_REF
+.no_dead_strip _TinyLand_System_Array_InternalArray__get_Item_T_INT_int
+.no_dead_strip _TinyLand_System_Linq_Enumerable_Iterator_1_TSource_REF__ctor
+
+.text
+	.align 3
+method_addresses:
+_mono_aot_TinyLandmethod_addresses:
+	.globl _mono_aot_TinyLandmethod_addresses
+	.no_dead_strip method_addresses
+bl _TinyLand_TinyLand_Application__ctor
+bl _TinyLand_TinyLand_Application_Main_string__
+bl _TinyLand_TinyLand_AppDelegate__ctor
+bl _TinyLand_TinyLand_AppDelegate_get_Window
+bl _TinyLand_TinyLand_AppDelegate_set_Window_UIKit_UIWindow
+bl _TinyLand_TinyLand_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
+bl _TinyLand_TinyLand_AppDelegate_OnResignActivation_UIKit_UIApplication
+bl _TinyLand_TinyLand_AppDelegate_DidEnterBackground_UIKit_UIApplication
+bl _TinyLand_TinyLand_AppDelegate_WillEnterForeground_UIKit_UIApplication
+bl _TinyLand_TinyLand_AppDelegate_OnActivated_UIKit_UIApplication
+bl _TinyLand_TinyLand_AppDelegate_WillTerminate_UIKit_UIApplication
+bl _TinyLand_TinyLand_GameViewController__ctor_intptr
+bl _TinyLand_TinyLand_GameViewController_ViewDidLoad
+bl _TinyLand_TinyLand_GameViewController_ShouldAutorotate
+bl _TinyLand_TinyLand_GameViewController_GetSupportedInterfaceOrientations
+bl _TinyLand_TinyLand_GameViewController_DidReceiveMemoryWarning
+bl _TinyLand_TinyLand_GameViewController_PrefersStatusBarHidden
+bl _TinyLand_TinyLand_GameViewController_ReleaseDesignerOutlets
+bl _TinyLand_TinyLand_GameScene__ctor_intptr
+bl _TinyLand_TinyLand_GameScene_DidMoveToView_SpriteKit_SKView
+bl _TinyLand_TinyLand_GameScene_DidSimulatePhysics
+bl _TinyLand_TinyLand_GameScene_Initial
+bl _TinyLand_TinyLand_GameScene_AddScoreLAbel
+bl _TinyLand_TinyLand_GameScene_AddChar
+bl _TinyLand_TinyLand_GameScene_AddPlatforms
+bl _TinyLand_TinyLand_GameScene_AddCamera
+bl _TinyLand_TinyLand_GameScene_AddBg
+bl _TinyLand_TinyLand_GameScene_TouchesBegan_Foundation_NSSet_UIKit_UIEvent
+bl _TinyLand_TinyLand_GameScene_Update_double
+bl _TinyLand_TinyLand_Character__ctor
+bl _TinyLand_TinyLand_Character_RunAnim
+bl _TinyLand_TinyLand_Character_idleAnim
+bl _TinyLand_TinyLand_Character_JumpAnim
+bl _TinyLand_TinyLand_Character_SlideAnim
+bl _TinyLand_TinyLand_Character_isSliding
+bl _TinyLand_TinyLand_Character__RunAnimm__0_int
+bl _TinyLand_TinyLand_Character__idleAnimm__1_int
+bl _TinyLand_TinyLand_Character__JumpAnimm__2_int
+bl _TinyLand_TinyLand_Character__SlideAnimm__3_int
+bl _TinyLand_TinyLand_Platforms__ctor_System_nfloat
+bl _TinyLand_TinyLand_BgSprite__ctor_System_nfloat_System_nfloat_System_nfloat_string
+bl _TinyLand_TinyLand_BgSprite_ScrollAnim_double
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl _TinyLand_wrapper_delegate_invoke_System_Func_2_int_SpriteKit_SKTexture_invoke_TResult_T_int
+bl _TinyLand_System_Linq_Enumerable_Select_TSource_INT_TResult_REF_System_Collections_Generic_IEnumerable_1_T_INT_System_Func_2_TSource_INT_TResult_REF
+bl method_addresses
+bl _TinyLand_System_Array_InternalEnumerator_1_T_INT__ctor_System_Array
+bl _TinyLand_System_Array_InternalEnumerator_1_T_INT_Dispose
+bl _TinyLand_System_Array_InternalEnumerator_1_T_INT_MoveNext
+bl _TinyLand_System_Array_InternalEnumerator_1_T_INT_get_Current
+bl _TinyLand_System_Array_InternalArray__IEnumerable_GetEnumerator_T_INT
+bl _TinyLand_System_Linq_Enumerable_WhereSelectArrayIterator_2_T_INT_TResult_REF__ctor_T_INT___System_Func_2_T_INT_bool_System_Func_2_T_INT_TResult_REF
+bl _TinyLand_System_Linq_Enumerable_WhereSelectListIterator_2_T_INT_TResult_REF__ctor_System_Collections_Generic_List_1_T_INT_System_Func_2_T_INT_bool_System_Func_2_T_INT_TResult_REF
+bl _TinyLand_System_Linq_Enumerable_WhereSelectEnumerableIterator_2_T_INT_TResult_REF__ctor_System_Collections_Generic_IEnumerable_1_T_INT_System_Func_2_T_INT_bool_System_Func_2_T_INT_TResult_REF
+bl _TinyLand_System_Array_InternalArray__get_Item_T_INT_int
+bl _TinyLand_System_Linq_Enumerable_Iterator_1_TSource_REF__ctor
+method_addresses_end:
+
+.section __TEXT, __const
+	.align 3
+unbox_trampolines:
+_mono_aot_TinyLandunbox_trampolines:
+	.globl _mono_aot_TinyLandunbox_trampolines
+
+	.long 50,51,52,53
+unbox_trampolines_end:
+_mono_aot_TinyLandunbox_trampolines_end:
+	.globl _mono_aot_TinyLandunbox_trampolines_end
+
+	.long 0
+.text
+	.align 3
+unbox_trampoline_addresses:
+_mono_aot_TinyLandunbox_trampoline_addresses:
+	.globl _mono_aot_TinyLandunbox_trampoline_addresses
+bl ut_50
+bl ut_51
+bl ut_52
+bl ut_53
+
+	.long 0
+.section __TEXT, __const
+	.align 3
+unwind_info:
+_mono_aot_TinyLandunwind_info:
+	.globl _mono_aot_TinyLandunwind_info
+
+.text
+	.align 4
+plt:
+_mono_aot_TinyLandplt:
+	.globl _mono_aot_TinyLandplt
+mono_aot_TinyLand_plt:
+_p_1_plt_TinyLand_UIKit_UIApplication_Main_string___string_string_llvm:
+	.globl _p_1_plt_TinyLand_UIKit_UIApplication_Main_string___string_string_llvm
+.private_extern _p_1_plt_TinyLand_UIKit_UIApplication_Main_string___string_string_llvm
+	.no_dead_strip plt_TinyLand_UIKit_UIApplication_Main_string___string_string
+plt_TinyLand_UIKit_UIApplication_Main_string___string_string:
+_p_1:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 24,552
+_p_2_plt_TinyLand_UIKit_UIApplicationDelegate__ctor_llvm:
+	.globl _p_2_plt_TinyLand_UIKit_UIApplicationDelegate__ctor_llvm
+.private_extern _p_2_plt_TinyLand_UIKit_UIApplicationDelegate__ctor_llvm
+	.no_dead_strip plt_TinyLand_UIKit_UIApplicationDelegate__ctor
+plt_TinyLand_UIKit_UIApplicationDelegate__ctor:
+_p_2:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 28,557
+_p_3_plt_TinyLand_wrapper_write_barrier_object_wbarrier_noconc_intptr_llvm:
+	.globl _p_3_plt_TinyLand_wrapper_write_barrier_object_wbarrier_noconc_intptr_llvm
+.private_extern _p_3_plt_TinyLand_wrapper_write_barrier_object_wbarrier_noconc_intptr_llvm
+	.no_dead_strip plt_TinyLand_wrapper_write_barrier_object_wbarrier_noconc_intptr
+plt_TinyLand_wrapper_write_barrier_object_wbarrier_noconc_intptr:
+_p_3:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 32,562
+_p_4_plt_TinyLand_UIKit_UIViewController__ctor_intptr_llvm:
+	.globl _p_4_plt_TinyLand_UIKit_UIViewController__ctor_intptr_llvm
+.private_extern _p_4_plt_TinyLand_UIKit_UIViewController__ctor_intptr_llvm
+	.no_dead_strip plt_TinyLand_UIKit_UIViewController__ctor_intptr
+plt_TinyLand_UIKit_UIViewController__ctor_intptr:
+_p_4:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 36,569
+_p_5_plt_TinyLand_UIKit_UIViewController_ViewDidLoad_llvm:
+	.globl _p_5_plt_TinyLand_UIKit_UIViewController_ViewDidLoad_llvm
+.private_extern _p_5_plt_TinyLand_UIKit_UIViewController_ViewDidLoad_llvm
+	.no_dead_strip plt_TinyLand_UIKit_UIViewController_ViewDidLoad
+plt_TinyLand_UIKit_UIViewController_ViewDidLoad:
+_p_5:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 40,574
+_p_6_plt_TinyLand_SpriteKit_SKNode_FromFile_TinyLand_GameScene_string_llvm:
+	.globl _p_6_plt_TinyLand_SpriteKit_SKNode_FromFile_TinyLand_GameScene_string_llvm
+.private_extern _p_6_plt_TinyLand_SpriteKit_SKNode_FromFile_TinyLand_GameScene_string_llvm
+	.no_dead_strip plt_TinyLand_SpriteKit_SKNode_FromFile_TinyLand_GameScene_string
+plt_TinyLand_SpriteKit_SKNode_FromFile_TinyLand_GameScene_string:
+_p_6:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 44,579
+_p_7_plt_TinyLand__jit_icall_llvm_throw_corlib_exception_abs_trampoline_llvm:
+	.globl _p_7_plt_TinyLand__jit_icall_llvm_throw_corlib_exception_abs_trampoline_llvm
+.private_extern _p_7_plt_TinyLand__jit_icall_llvm_throw_corlib_exception_abs_trampoline_llvm
+	.no_dead_strip plt_TinyLand__jit_icall_llvm_throw_corlib_exception_abs_trampoline
+plt_TinyLand__jit_icall_llvm_throw_corlib_exception_abs_trampoline:
+_p_7:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 48,591
+_p_8_plt_TinyLand_UIKit_UIDevice_get_CurrentDevice_llvm:
+	.globl _p_8_plt_TinyLand_UIKit_UIDevice_get_CurrentDevice_llvm
+.private_extern _p_8_plt_TinyLand_UIKit_UIDevice_get_CurrentDevice_llvm
+	.no_dead_strip plt_TinyLand_UIKit_UIDevice_get_CurrentDevice
+plt_TinyLand_UIKit_UIDevice_get_CurrentDevice:
+_p_8:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 52,636
+_p_9_plt_TinyLand_UIKit_UIDevice_get_UserInterfaceIdiom_llvm:
+	.globl _p_9_plt_TinyLand_UIKit_UIDevice_get_UserInterfaceIdiom_llvm
+.private_extern _p_9_plt_TinyLand_UIKit_UIDevice_get_UserInterfaceIdiom_llvm
+	.no_dead_strip plt_TinyLand_UIKit_UIDevice_get_UserInterfaceIdiom
+plt_TinyLand_UIKit_UIDevice_get_UserInterfaceIdiom:
+_p_9:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 56,641
+_p_10_plt_TinyLand_UIKit_UIViewController_DidReceiveMemoryWarning_llvm:
+	.globl _p_10_plt_TinyLand_UIKit_UIViewController_DidReceiveMemoryWarning_llvm
+.private_extern _p_10_plt_TinyLand_UIKit_UIViewController_DidReceiveMemoryWarning_llvm
+	.no_dead_strip plt_TinyLand_UIKit_UIViewController_DidReceiveMemoryWarning
+plt_TinyLand_UIKit_UIViewController_DidReceiveMemoryWarning:
+_p_10:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 60,646
+_p_11_plt_TinyLand__jit_icall_mono_object_new_fast_llvm:
+	.globl _p_11_plt_TinyLand__jit_icall_mono_object_new_fast_llvm
+.private_extern _p_11_plt_TinyLand__jit_icall_mono_object_new_fast_llvm
+	.no_dead_strip plt_TinyLand__jit_icall_mono_object_new_fast
+plt_TinyLand__jit_icall_mono_object_new_fast:
+_p_11:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 64,651
+_p_12_plt_TinyLand_System_Random__ctor_llvm:
+	.globl _p_12_plt_TinyLand_System_Random__ctor_llvm
+.private_extern _p_12_plt_TinyLand_System_Random__ctor_llvm
+	.no_dead_strip plt_TinyLand_System_Random__ctor
+plt_TinyLand_System_Random__ctor:
+_p_12:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 68,674
+_p_13_plt_TinyLand_SpriteKit_SKScene__ctor_intptr_llvm:
+	.globl _p_13_plt_TinyLand_SpriteKit_SKScene__ctor_intptr_llvm
+.private_extern _p_13_plt_TinyLand_SpriteKit_SKScene__ctor_intptr_llvm
+	.no_dead_strip plt_TinyLand_SpriteKit_SKScene__ctor_intptr
+plt_TinyLand_SpriteKit_SKScene__ctor_intptr:
+_p_13:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 72,677
+_p_14_plt_TinyLand_UIKit_UIScreen_get_MainScreen_llvm:
+	.globl _p_14_plt_TinyLand_UIKit_UIScreen_get_MainScreen_llvm
+.private_extern _p_14_plt_TinyLand_UIKit_UIScreen_get_MainScreen_llvm
+	.no_dead_strip plt_TinyLand_UIKit_UIScreen_get_MainScreen
+plt_TinyLand_UIKit_UIScreen_get_MainScreen:
+_p_14:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 76,682
+_p_15_plt_TinyLand_TinyLand_GameScene_Initial_llvm:
+	.globl _p_15_plt_TinyLand_TinyLand_GameScene_Initial_llvm
+.private_extern _p_15_plt_TinyLand_TinyLand_GameScene_Initial_llvm
+	.no_dead_strip plt_TinyLand_TinyLand_GameScene_Initial
+plt_TinyLand_TinyLand_GameScene_Initial:
+_p_15:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 80,687
+_p_16_plt_TinyLand_SpriteKit_SKScene_DidSimulatePhysics_llvm:
+	.globl _p_16_plt_TinyLand_SpriteKit_SKScene_DidSimulatePhysics_llvm
+.private_extern _p_16_plt_TinyLand_SpriteKit_SKScene_DidSimulatePhysics_llvm
+	.no_dead_strip plt_TinyLand_SpriteKit_SKScene_DidSimulatePhysics
+plt_TinyLand_SpriteKit_SKScene_DidSimulatePhysics:
+_p_16:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 84,692
+_p_17_plt_TinyLand_TinyLand_GameScene_AddBg_llvm:
+	.globl _p_17_plt_TinyLand_TinyLand_GameScene_AddBg_llvm
+.private_extern _p_17_plt_TinyLand_TinyLand_GameScene_AddBg_llvm
+	.no_dead_strip plt_TinyLand_TinyLand_GameScene_AddBg
+plt_TinyLand_TinyLand_GameScene_AddBg:
+_p_17:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 88,697
+_p_18_plt_TinyLand_TinyLand_GameScene_AddScoreLAbel_llvm:
+	.globl _p_18_plt_TinyLand_TinyLand_GameScene_AddScoreLAbel_llvm
+.private_extern _p_18_plt_TinyLand_TinyLand_GameScene_AddScoreLAbel_llvm
+	.no_dead_strip plt_TinyLand_TinyLand_GameScene_AddScoreLAbel
+plt_TinyLand_TinyLand_GameScene_AddScoreLAbel:
+_p_18:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 92,702
+_p_19_plt_TinyLand_TinyLand_GameScene_AddCamera_llvm:
+	.globl _p_19_plt_TinyLand_TinyLand_GameScene_AddCamera_llvm
+.private_extern _p_19_plt_TinyLand_TinyLand_GameScene_AddCamera_llvm
+	.no_dead_strip plt_TinyLand_TinyLand_GameScene_AddCamera
+plt_TinyLand_TinyLand_GameScene_AddCamera:
+_p_19:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 96,707
+_p_20_plt_TinyLand_TinyLand_GameScene_AddChar_llvm:
+	.globl _p_20_plt_TinyLand_TinyLand_GameScene_AddChar_llvm
+.private_extern _p_20_plt_TinyLand_TinyLand_GameScene_AddChar_llvm
+	.no_dead_strip plt_TinyLand_TinyLand_GameScene_AddChar
+plt_TinyLand_TinyLand_GameScene_AddChar:
+_p_20:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 100,712
+_p_21_plt_TinyLand_TinyLand_GameScene_AddPlatforms_llvm:
+	.globl _p_21_plt_TinyLand_TinyLand_GameScene_AddPlatforms_llvm
+.private_extern _p_21_plt_TinyLand_TinyLand_GameScene_AddPlatforms_llvm
+	.no_dead_strip plt_TinyLand_TinyLand_GameScene_AddPlatforms
+plt_TinyLand_TinyLand_GameScene_AddPlatforms:
+_p_21:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 104,717
+_p_22_plt_TinyLand__jit_icall_mono_object_new_specific_llvm:
+	.globl _p_22_plt_TinyLand__jit_icall_mono_object_new_specific_llvm
+.private_extern _p_22_plt_TinyLand__jit_icall_mono_object_new_specific_llvm
+	.no_dead_strip plt_TinyLand__jit_icall_mono_object_new_specific
+plt_TinyLand__jit_icall_mono_object_new_specific:
+_p_22:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 108,722
+_p_23_plt_TinyLand_SpriteKit_SKLabelNode__ctor_llvm:
+	.globl _p_23_plt_TinyLand_SpriteKit_SKLabelNode__ctor_llvm
+.private_extern _p_23_plt_TinyLand_SpriteKit_SKLabelNode__ctor_llvm
+	.no_dead_strip plt_TinyLand_SpriteKit_SKLabelNode__ctor
+plt_TinyLand_SpriteKit_SKLabelNode__ctor:
+_p_23:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 112,749
+_p_24_plt_TinyLand_int_ToString_llvm:
+	.globl _p_24_plt_TinyLand_int_ToString_llvm
+.private_extern _p_24_plt_TinyLand_int_ToString_llvm
+	.no_dead_strip plt_TinyLand_int_ToString
+plt_TinyLand_int_ToString:
+_p_24:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 116,754
+_p_25_plt_TinyLand_TinyLand_Character__ctor_llvm:
+	.globl _p_25_plt_TinyLand_TinyLand_Character__ctor_llvm
+.private_extern _p_25_plt_TinyLand_TinyLand_Character__ctor_llvm
+	.no_dead_strip plt_TinyLand_TinyLand_Character__ctor
+plt_TinyLand_TinyLand_Character__ctor:
+_p_25:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 120,757
+_p_26_plt_TinyLand_TinyLand_Platforms__ctor_System_nfloat_llvm:
+	.globl _p_26_plt_TinyLand_TinyLand_Platforms__ctor_System_nfloat_llvm
+.private_extern _p_26_plt_TinyLand_TinyLand_Platforms__ctor_System_nfloat_llvm
+	.no_dead_strip plt_TinyLand_TinyLand_Platforms__ctor_System_nfloat
+plt_TinyLand_TinyLand_Platforms__ctor_System_nfloat:
+_p_26:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 124,762
+_p_27_plt_TinyLand_SpriteKit_SKNode__ctor_llvm:
+	.globl _p_27_plt_TinyLand_SpriteKit_SKNode__ctor_llvm
+.private_extern _p_27_plt_TinyLand_SpriteKit_SKNode__ctor_llvm
+	.no_dead_strip plt_TinyLand_SpriteKit_SKNode__ctor
+plt_TinyLand_SpriteKit_SKNode__ctor:
+_p_27:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 128,767
+_p_28_plt_TinyLand_SpriteKit_SKSpriteNode__ctor_string_llvm:
+	.globl _p_28_plt_TinyLand_SpriteKit_SKSpriteNode__ctor_string_llvm
+.private_extern _p_28_plt_TinyLand_SpriteKit_SKSpriteNode__ctor_string_llvm
+	.no_dead_strip plt_TinyLand_SpriteKit_SKSpriteNode__ctor_string
+plt_TinyLand_SpriteKit_SKSpriteNode__ctor_string:
+_p_28:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 132,772
+_p_29_plt_TinyLand_TinyLand_BgSprite__ctor_System_nfloat_System_nfloat_System_nfloat_string_llvm:
+	.globl _p_29_plt_TinyLand_TinyLand_BgSprite__ctor_System_nfloat_System_nfloat_System_nfloat_string_llvm
+.private_extern _p_29_plt_TinyLand_TinyLand_BgSprite__ctor_System_nfloat_System_nfloat_System_nfloat_string_llvm
+	.no_dead_strip plt_TinyLand_TinyLand_BgSprite__ctor_System_nfloat_System_nfloat_System_nfloat_string
+plt_TinyLand_TinyLand_BgSprite__ctor_System_nfloat_System_nfloat_System_nfloat_string:
+_p_29:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 136,777
+_p_30_plt_TinyLand_TinyLand_BgSprite_ScrollAnim_double_llvm:
+	.globl _p_30_plt_TinyLand_TinyLand_BgSprite_ScrollAnim_double_llvm
+.private_extern _p_30_plt_TinyLand_TinyLand_BgSprite_ScrollAnim_double_llvm
+	.no_dead_strip plt_TinyLand_TinyLand_BgSprite_ScrollAnim_double
+plt_TinyLand_TinyLand_BgSprite_ScrollAnim_double:
+_p_30:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 140,782
+_p_31_plt_TinyLand_TinyLand_Character_JumpAnim_llvm:
+	.globl _p_31_plt_TinyLand_TinyLand_Character_JumpAnim_llvm
+.private_extern _p_31_plt_TinyLand_TinyLand_Character_JumpAnim_llvm
+	.no_dead_strip plt_TinyLand_TinyLand_Character_JumpAnim
+plt_TinyLand_TinyLand_Character_JumpAnim:
+_p_31:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 144,787
+_p_32_plt_TinyLand_SpriteKit_SKSpriteNode__ctor_llvm:
+	.globl _p_32_plt_TinyLand_SpriteKit_SKSpriteNode__ctor_llvm
+.private_extern _p_32_plt_TinyLand_SpriteKit_SKSpriteNode__ctor_llvm
+	.no_dead_strip plt_TinyLand_SpriteKit_SKSpriteNode__ctor
+plt_TinyLand_SpriteKit_SKSpriteNode__ctor:
+_p_32:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 148,792
+_p_33_plt_TinyLand_SpriteKit_SKPhysicsBody_CreateRectangularBody_CoreGraphics_CGSize_llvm:
+	.globl _p_33_plt_TinyLand_SpriteKit_SKPhysicsBody_CreateRectangularBody_CoreGraphics_CGSize_llvm
+.private_extern _p_33_plt_TinyLand_SpriteKit_SKPhysicsBody_CreateRectangularBody_CoreGraphics_CGSize_llvm
+	.no_dead_strip plt_TinyLand_SpriteKit_SKPhysicsBody_CreateRectangularBody_CoreGraphics_CGSize
+plt_TinyLand_SpriteKit_SKPhysicsBody_CreateRectangularBody_CoreGraphics_CGSize:
+_p_33:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 152,797
+_p_34_plt_TinyLand_System_Console_WriteLine_double_llvm:
+	.globl _p_34_plt_TinyLand_System_Console_WriteLine_double_llvm
+.private_extern _p_34_plt_TinyLand_System_Console_WriteLine_double_llvm
+	.no_dead_strip plt_TinyLand_System_Console_WriteLine_double
+plt_TinyLand_System_Console_WriteLine_double:
+_p_34:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 156,802
+_p_35_plt_TinyLand_TinyLand_Character_RunAnim_llvm:
+	.globl _p_35_plt_TinyLand_TinyLand_Character_RunAnim_llvm
+.private_extern _p_35_plt_TinyLand_TinyLand_Character_RunAnim_llvm
+	.no_dead_strip plt_TinyLand_TinyLand_Character_RunAnim
+plt_TinyLand_TinyLand_Character_RunAnim:
+_p_35:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 160,805
+_p_36_plt_TinyLand_System_Linq_Enumerable_Range_int_int_llvm:
+	.globl _p_36_plt_TinyLand_System_Linq_Enumerable_Range_int_int_llvm
+.private_extern _p_36_plt_TinyLand_System_Linq_Enumerable_Range_int_int_llvm
+	.no_dead_strip plt_TinyLand_System_Linq_Enumerable_Range_int_int
+plt_TinyLand_System_Linq_Enumerable_Range_int_int:
+_p_36:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 164,810
+_p_37_plt_TinyLand_System_Linq_Enumerable_Select_int_SpriteKit_SKTexture_System_Collections_Generic_IEnumerable_1_int_System_Func_2_int_SpriteKit_SKTexture_llvm:
+	.globl _p_37_plt_TinyLand_System_Linq_Enumerable_Select_int_SpriteKit_SKTexture_System_Collections_Generic_IEnumerable_1_int_System_Func_2_int_SpriteKit_SKTexture_llvm
+.private_extern _p_37_plt_TinyLand_System_Linq_Enumerable_Select_int_SpriteKit_SKTexture_System_Collections_Generic_IEnumerable_1_int_System_Func_2_int_SpriteKit_SKTexture_llvm
+	.no_dead_strip plt_TinyLand_System_Linq_Enumerable_Select_int_SpriteKit_SKTexture_System_Collections_Generic_IEnumerable_1_int_System_Func_2_int_SpriteKit_SKTexture
+plt_TinyLand_System_Linq_Enumerable_Select_int_SpriteKit_SKTexture_System_Collections_Generic_IEnumerable_1_int_System_Func_2_int_SpriteKit_SKTexture:
+_p_37:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 168,815
+_p_38_plt_TinyLand_System_Linq_Enumerable_ToArray_SpriteKit_SKTexture_System_Collections_Generic_IEnumerable_1_SpriteKit_SKTexture_llvm:
+	.globl _p_38_plt_TinyLand_System_Linq_Enumerable_ToArray_SpriteKit_SKTexture_System_Collections_Generic_IEnumerable_1_SpriteKit_SKTexture_llvm
+.private_extern _p_38_plt_TinyLand_System_Linq_Enumerable_ToArray_SpriteKit_SKTexture_System_Collections_Generic_IEnumerable_1_SpriteKit_SKTexture_llvm
+	.no_dead_strip plt_TinyLand_System_Linq_Enumerable_ToArray_SpriteKit_SKTexture_System_Collections_Generic_IEnumerable_1_SpriteKit_SKTexture
+plt_TinyLand_System_Linq_Enumerable_ToArray_SpriteKit_SKTexture_System_Collections_Generic_IEnumerable_1_SpriteKit_SKTexture:
+_p_38:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 172,827
+_p_39_plt_TinyLand_SpriteKit_SKAction_AnimateWithTextures_SpriteKit_SKTexture___double_llvm:
+	.globl _p_39_plt_TinyLand_SpriteKit_SKAction_AnimateWithTextures_SpriteKit_SKTexture___double_llvm
+.private_extern _p_39_plt_TinyLand_SpriteKit_SKAction_AnimateWithTextures_SpriteKit_SKTexture___double_llvm
+	.no_dead_strip plt_TinyLand_SpriteKit_SKAction_AnimateWithTextures_SpriteKit_SKTexture___double
+plt_TinyLand_SpriteKit_SKAction_AnimateWithTextures_SpriteKit_SKTexture___double:
+_p_39:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 176,839
+_p_40_plt_TinyLand_SpriteKit_SKAction_RepeatActionForever_SpriteKit_SKAction_llvm:
+	.globl _p_40_plt_TinyLand_SpriteKit_SKAction_RepeatActionForever_SpriteKit_SKAction_llvm
+.private_extern _p_40_plt_TinyLand_SpriteKit_SKAction_RepeatActionForever_SpriteKit_SKAction_llvm
+	.no_dead_strip plt_TinyLand_SpriteKit_SKAction_RepeatActionForever_SpriteKit_SKAction
+plt_TinyLand_SpriteKit_SKAction_RepeatActionForever_SpriteKit_SKAction:
+_p_40:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 180,844
+_p_41_plt_TinyLand_SpriteKit_SKPhysicsBody_CreateRectangularBody_CoreGraphics_CGSize_CoreGraphics_CGPoint_llvm:
+	.globl _p_41_plt_TinyLand_SpriteKit_SKPhysicsBody_CreateRectangularBody_CoreGraphics_CGSize_CoreGraphics_CGPoint_llvm
+.private_extern _p_41_plt_TinyLand_SpriteKit_SKPhysicsBody_CreateRectangularBody_CoreGraphics_CGSize_CoreGraphics_CGPoint_llvm
+	.no_dead_strip plt_TinyLand_SpriteKit_SKPhysicsBody_CreateRectangularBody_CoreGraphics_CGSize_CoreGraphics_CGPoint
+plt_TinyLand_SpriteKit_SKPhysicsBody_CreateRectangularBody_CoreGraphics_CGSize_CoreGraphics_CGPoint:
+_p_41:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 184,849
+_p_42_plt_TinyLand_string_Concat_string_string_llvm:
+	.globl _p_42_plt_TinyLand_string_Concat_string_string_llvm
+.private_extern _p_42_plt_TinyLand_string_Concat_string_string_llvm
+	.no_dead_strip plt_TinyLand_string_Concat_string_string
+plt_TinyLand_string_Concat_string_string:
+_p_42:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 188,854
+_p_43_plt_TinyLand_string_Format_string_object_llvm:
+	.globl _p_43_plt_TinyLand_string_Format_string_object_llvm
+.private_extern _p_43_plt_TinyLand_string_Format_string_object_llvm
+	.no_dead_strip plt_TinyLand_string_Format_string_object
+plt_TinyLand_string_Format_string_object:
+_p_43:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 192,857
+_p_44_plt_TinyLand_SpriteKit_SKTexture_FromImageNamed_string_llvm:
+	.globl _p_44_plt_TinyLand_SpriteKit_SKTexture_FromImageNamed_string_llvm
+.private_extern _p_44_plt_TinyLand_SpriteKit_SKTexture_FromImageNamed_string_llvm
+	.no_dead_strip plt_TinyLand_SpriteKit_SKTexture_FromImageNamed_string
+plt_TinyLand_SpriteKit_SKTexture_FromImageNamed_string:
+_p_44:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 196,860
+_p_45_plt_TinyLand_SpriteKit_SKAction_MoveToX_System_nfloat_double_llvm:
+	.globl _p_45_plt_TinyLand_SpriteKit_SKAction_MoveToX_System_nfloat_double_llvm
+.private_extern _p_45_plt_TinyLand_SpriteKit_SKAction_MoveToX_System_nfloat_double_llvm
+	.no_dead_strip plt_TinyLand_SpriteKit_SKAction_MoveToX_System_nfloat_double
+plt_TinyLand_SpriteKit_SKAction_MoveToX_System_nfloat_double:
+_p_45:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 200,865
+_p_46_plt_TinyLand__jit_icall_mono_array_new_specific_llvm:
+	.globl _p_46_plt_TinyLand__jit_icall_mono_array_new_specific_llvm
+.private_extern _p_46_plt_TinyLand__jit_icall_mono_array_new_specific_llvm
+	.no_dead_strip plt_TinyLand__jit_icall_mono_array_new_specific
+plt_TinyLand__jit_icall_mono_array_new_specific:
+_p_46:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 204,870
+_p_47_plt_TinyLand_SpriteKit_SKAction_Sequence_SpriteKit_SKAction___llvm:
+	.globl _p_47_plt_TinyLand_SpriteKit_SKAction_Sequence_SpriteKit_SKAction___llvm
+.private_extern _p_47_plt_TinyLand_SpriteKit_SKAction_Sequence_SpriteKit_SKAction___llvm
+	.no_dead_strip plt_TinyLand_SpriteKit_SKAction_Sequence_SpriteKit_SKAction__
+plt_TinyLand_SpriteKit_SKAction_Sequence_SpriteKit_SKAction__:
+_p_47:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 208,896
+_p_48_plt_TinyLand__jit_icall_mono_thread_interruption_checkpoint_llvm:
+	.globl _p_48_plt_TinyLand__jit_icall_mono_thread_interruption_checkpoint_llvm
+.private_extern _p_48_plt_TinyLand__jit_icall_mono_thread_interruption_checkpoint_llvm
+	.no_dead_strip plt_TinyLand__jit_icall_mono_thread_interruption_checkpoint
+plt_TinyLand__jit_icall_mono_thread_interruption_checkpoint:
+_p_48:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 212,901
+_p_49_plt_TinyLand__jit_icall_mono_arch_throw_exception_llvm:
+	.globl _p_49_plt_TinyLand__jit_icall_mono_arch_throw_exception_llvm
+.private_extern _p_49_plt_TinyLand__jit_icall_mono_arch_throw_exception_llvm
+	.no_dead_strip plt_TinyLand__jit_icall_mono_arch_throw_exception
+plt_TinyLand__jit_icall_mono_arch_throw_exception:
+_p_49:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 216,939
+_p_50_plt_TinyLand__rgctx_fetch_0_llvm:
+	.globl _p_50_plt_TinyLand__rgctx_fetch_0_llvm
+.private_extern _p_50_plt_TinyLand__rgctx_fetch_0_llvm
+	.no_dead_strip plt_TinyLand__rgctx_fetch_0
+plt_TinyLand__rgctx_fetch_0:
+_p_50:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 220,996
+_p_51_plt_TinyLand__rgctx_fetch_1_llvm:
+	.globl _p_51_plt_TinyLand__rgctx_fetch_1_llvm
+.private_extern _p_51_plt_TinyLand__rgctx_fetch_1_llvm
+	.no_dead_strip plt_TinyLand__rgctx_fetch_1
+plt_TinyLand__rgctx_fetch_1:
+_p_51:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 224,1004
+_p_52_plt_TinyLand_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr_llvm:
+	.globl _p_52_plt_TinyLand_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr_llvm
+.private_extern _p_52_plt_TinyLand_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr_llvm
+	.no_dead_strip plt_TinyLand_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr
+plt_TinyLand_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr:
+_p_52:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 228,1014
+_p_53_plt_TinyLand__rgctx_fetch_2_llvm:
+	.globl _p_53_plt_TinyLand__rgctx_fetch_2_llvm
+.private_extern _p_53_plt_TinyLand__rgctx_fetch_2_llvm
+	.no_dead_strip plt_TinyLand__rgctx_fetch_2
+plt_TinyLand__rgctx_fetch_2:
+_p_53:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 232,1029
+_p_54_plt_TinyLand__rgctx_fetch_3_llvm:
+	.globl _p_54_plt_TinyLand__rgctx_fetch_3_llvm
+.private_extern _p_54_plt_TinyLand__rgctx_fetch_3_llvm
+	.no_dead_strip plt_TinyLand__rgctx_fetch_3
+plt_TinyLand__rgctx_fetch_3:
+_p_54:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 236,1048
+_p_55_plt_TinyLand__rgctx_fetch_4_llvm:
+	.globl _p_55_plt_TinyLand__rgctx_fetch_4_llvm
+.private_extern _p_55_plt_TinyLand__rgctx_fetch_4_llvm
+	.no_dead_strip plt_TinyLand__rgctx_fetch_4
+plt_TinyLand__rgctx_fetch_4:
+_p_55:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 240,1056
+_p_56_plt_TinyLand__rgctx_fetch_5_llvm:
+	.globl _p_56_plt_TinyLand__rgctx_fetch_5_llvm
+.private_extern _p_56_plt_TinyLand__rgctx_fetch_5_llvm
+	.no_dead_strip plt_TinyLand__rgctx_fetch_5
+plt_TinyLand__rgctx_fetch_5:
+_p_56:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 244,1093
+_p_57_plt_TinyLand__rgctx_fetch_6_llvm:
+	.globl _p_57_plt_TinyLand__rgctx_fetch_6_llvm
+.private_extern _p_57_plt_TinyLand__rgctx_fetch_6_llvm
+	.no_dead_strip plt_TinyLand__rgctx_fetch_6
+plt_TinyLand__rgctx_fetch_6:
+_p_57:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 248,1101
+_p_58_plt_TinyLand_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr_llvm:
+	.globl _p_58_plt_TinyLand_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr_llvm
+.private_extern _p_58_plt_TinyLand_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr_llvm
+	.no_dead_strip plt_TinyLand_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr
+plt_TinyLand_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr:
+_p_58:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 252,1127
+_p_59_plt_TinyLand__rgctx_fetch_7_llvm:
+	.globl _p_59_plt_TinyLand__rgctx_fetch_7_llvm
+.private_extern _p_59_plt_TinyLand__rgctx_fetch_7_llvm
+	.no_dead_strip plt_TinyLand__rgctx_fetch_7
+plt_TinyLand__rgctx_fetch_7:
+_p_59:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 256,1146
+_p_60_plt_TinyLand__rgctx_fetch_8_llvm:
+	.globl _p_60_plt_TinyLand__rgctx_fetch_8_llvm
+.private_extern _p_60_plt_TinyLand__rgctx_fetch_8_llvm
+	.no_dead_strip plt_TinyLand__rgctx_fetch_8
+plt_TinyLand__rgctx_fetch_8:
+_p_60:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 260,1154
+_p_61_plt_TinyLand__rgctx_fetch_9_llvm:
+	.globl _p_61_plt_TinyLand__rgctx_fetch_9_llvm
+.private_extern _p_61_plt_TinyLand__rgctx_fetch_9_llvm
+	.no_dead_strip plt_TinyLand__rgctx_fetch_9
+plt_TinyLand__rgctx_fetch_9:
+_p_61:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 264,1180
+_p_62_plt_TinyLand__rgctx_fetch_10_llvm:
+	.globl _p_62_plt_TinyLand__rgctx_fetch_10_llvm
+.private_extern _p_62_plt_TinyLand__rgctx_fetch_10_llvm
+	.no_dead_strip plt_TinyLand__rgctx_fetch_10
+plt_TinyLand__rgctx_fetch_10:
+_p_62:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 268,1206
+_p_63_plt_TinyLand__jit_icall_mono_helper_ldstr_llvm:
+	.globl _p_63_plt_TinyLand__jit_icall_mono_helper_ldstr_llvm
+.private_extern _p_63_plt_TinyLand__jit_icall_mono_helper_ldstr_llvm
+	.no_dead_strip plt_TinyLand__jit_icall_mono_helper_ldstr
+plt_TinyLand__jit_icall_mono_helper_ldstr:
+_p_63:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 272,1232
+_p_64_plt_TinyLand_System_Linq_Error_ArgumentNull_string_llvm:
+	.globl _p_64_plt_TinyLand_System_Linq_Error_ArgumentNull_string_llvm
+.private_extern _p_64_plt_TinyLand_System_Linq_Error_ArgumentNull_string_llvm
+	.no_dead_strip plt_TinyLand_System_Linq_Error_ArgumentNull_string
+plt_TinyLand_System_Linq_Error_ArgumentNull_string:
+_p_64:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 276,1252
+_p_65_plt_TinyLand__rgctx_fetch_11_llvm:
+	.globl _p_65_plt_TinyLand__rgctx_fetch_11_llvm
+.private_extern _p_65_plt_TinyLand__rgctx_fetch_11_llvm
+	.no_dead_strip plt_TinyLand__rgctx_fetch_11
+plt_TinyLand__rgctx_fetch_11:
+_p_65:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 280,1275
+_p_66_plt_TinyLand__rgctx_fetch_12_llvm:
+	.globl _p_66_plt_TinyLand__rgctx_fetch_12_llvm
+.private_extern _p_66_plt_TinyLand__rgctx_fetch_12_llvm
+	.no_dead_strip plt_TinyLand__rgctx_fetch_12
+plt_TinyLand__rgctx_fetch_12:
+_p_66:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 284,1298
+_p_67_plt_TinyLand__jit_icall_mono_helper_ldstr_mscorlib_llvm:
+	.globl _p_67_plt_TinyLand__jit_icall_mono_helper_ldstr_mscorlib_llvm
+.private_extern _p_67_plt_TinyLand__jit_icall_mono_helper_ldstr_mscorlib_llvm
+	.no_dead_strip plt_TinyLand__jit_icall_mono_helper_ldstr_mscorlib
+plt_TinyLand__jit_icall_mono_helper_ldstr_mscorlib:
+_p_67:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 288,1321
+_p_68_plt_TinyLand__jit_icall_mono_create_corlib_exception_1_llvm:
+	.globl _p_68_plt_TinyLand__jit_icall_mono_create_corlib_exception_1_llvm
+.private_extern _p_68_plt_TinyLand__jit_icall_mono_create_corlib_exception_1_llvm
+	.no_dead_strip plt_TinyLand__jit_icall_mono_create_corlib_exception_1
+plt_TinyLand__jit_icall_mono_create_corlib_exception_1:
+_p_68:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 292,1350
+_p_69_plt_TinyLand__rgctx_fetch_13_llvm:
+	.globl _p_69_plt_TinyLand__rgctx_fetch_13_llvm
+.private_extern _p_69_plt_TinyLand__rgctx_fetch_13_llvm
+	.no_dead_strip plt_TinyLand__rgctx_fetch_13
+plt_TinyLand__rgctx_fetch_13:
+_p_69:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 296,1409
+_p_70_plt_TinyLand__rgctx_fetch_14_llvm:
+	.globl _p_70_plt_TinyLand__rgctx_fetch_14_llvm
+.private_extern _p_70_plt_TinyLand__rgctx_fetch_14_llvm
+	.no_dead_strip plt_TinyLand__rgctx_fetch_14
+plt_TinyLand__rgctx_fetch_14:
+_p_70:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 300,1417
+_p_71_plt_TinyLand_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_llvm:
+	.globl _p_71_plt_TinyLand_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_llvm
+.private_extern _p_71_plt_TinyLand_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_llvm
+	.no_dead_strip plt_TinyLand_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor
+plt_TinyLand_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor:
+_p_71:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 304,1448
+_p_72_plt_TinyLand__rgctx_fetch_15_llvm:
+	.globl _p_72_plt_TinyLand__rgctx_fetch_15_llvm
+.private_extern _p_72_plt_TinyLand__rgctx_fetch_15_llvm
+	.no_dead_strip plt_TinyLand__rgctx_fetch_15
+plt_TinyLand__rgctx_fetch_15:
+_p_72:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 308,1485
+_p_73_plt_TinyLand_System_Threading_Thread_get_CurrentThread_llvm:
+	.globl _p_73_plt_TinyLand_System_Threading_Thread_get_CurrentThread_llvm
+.private_extern _p_73_plt_TinyLand_System_Threading_Thread_get_CurrentThread_llvm
+	.no_dead_strip plt_TinyLand_System_Threading_Thread_get_CurrentThread
+plt_TinyLand_System_Threading_Thread_get_CurrentThread:
+_p_73:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 312,1508
+_p_74_plt_TinyLand_System_Threading_Thread_get_ManagedThreadId_llvm:
+	.globl _p_74_plt_TinyLand_System_Threading_Thread_get_ManagedThreadId_llvm
+.private_extern _p_74_plt_TinyLand_System_Threading_Thread_get_ManagedThreadId_llvm
+	.no_dead_strip plt_TinyLand_System_Threading_Thread_get_ManagedThreadId
+plt_TinyLand_System_Threading_Thread_get_ManagedThreadId:
+_p_74:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_TinyLand_got - . + 316,1511
+plt_end:
+_mono_aot_TinyLandplt_end:
+	.globl _mono_aot_TinyLandplt_end
+.section __DATA, __bss
+	.align 3
+jit_got:
+_mono_aot_TinyLandjit_got:
+	.globl _mono_aot_TinyLandjit_got
+.lcomm mono_aot_TinyLand_got, 324
+.section __TEXT, __const
+	.align 3
+Lglobals_hash:
+
+	.short 11, 0, 0, 0, 0, 0, 0, 0
+	.short 0, 0, 0, 0, 0, 0, 0, 0
+	.short 0, 0, 0, 0, 0, 0, 0
+.data
+	.align 3
+globals:
+_mono_aot_TinyLandglobals:
+	.globl _mono_aot_TinyLandglobals
+	.align 2
+	.long Lglobals_hash
+
+	.long 0,0
+.text
+	.align 3
+mem_end:
